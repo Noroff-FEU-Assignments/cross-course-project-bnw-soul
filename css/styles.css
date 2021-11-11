@@ -455,8 +455,8 @@ a.sale {
     margin-left: 20px;
 }
 
-@media only screen and (max-width: 650px) {
-}
+
+
 
 .thank-you-purchase{
     display: flex;
@@ -557,9 +557,46 @@ a.sale {
     opacity: 0.9;
 }
 
-@media only screen and (max-width: 650px) {
-    
-        
-        
+.our-story-container-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.9;
+    gap: 80px;
 }
- 
+
+.our-story-lol{
+    display: flex;
+    flex-direction: column;
+}
+
+.our-story-button{
+    background-color: #205950;
+    color: white;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.our-story-content{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+
+.contacts-button{
+    padding-top: 15px;
+    background-color:#B60000;
+    color: white;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
