@@ -142,7 +142,7 @@ a.sale {
     margin-right: auto;
 }
 
-.sale1 {
+.sale-icon {
     position:relative;
     text-decoration: none;
     background-color: #B60000;
@@ -164,7 +164,7 @@ a.sale {
 
 
 
-.product-1{
+.product-men-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -192,17 +192,59 @@ a.sale {
     border-radius: 5px;
 }
 
+.men-jacket-label {
+    position:relative;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    top: -70px;
+    left: 40px;
+    font-size: 12px;
+    flex-direction:column;
+    width: 100px;
+    text-align: center;
+}
 
+.product-name-men {
+    display: flex;
+    text-decoration:none;
+    position: relative;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    
+    
+}
 
+.product-name-men a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    border-radius: 2px;
+    
+}
 
-.View-more1{
+.price-40-men{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 55px;
+}
+
+.price-40-men a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.View-more-button-men{
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.View-more1 a{
+.View-more-button-men a{
     font-style: italic;
     margin: 10px;
     width: 200px;
@@ -219,54 +261,8 @@ a.sale {
     margin-left: -100px;
 }
 
-.Men-Jacket {
-    position:relative;
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    top: -70px;
-    left: 40px;
-    font-size: 12px;
-    flex-direction:column;
-    width: 100px;
-    text-align: center;
-}
 
-.prices-mens {
-    display: flex;
-    text-decoration:none;
-    position: relative;
-    justify-content: space-evenly;
-    margin-top: 5px;
-    
-    
-}
-
-.prices-mens a{
-    text-decoration: none;
-    color:white;
-    background-color: black;
-    border-radius: 2px;
-    
-}
-
-.price40{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 55px;
-}
-
-.price40 a {
-    color: white;
-    background-color: black;
-    text-decoration: none;
-    margin-top: 3px;
-}
-
-
-
-.womens-jackets{
+.women-jacket-label{
     position:relative;
     text-decoration: none;
     background-color: black;
@@ -279,7 +275,7 @@ a.sale {
     text-align: center;
 }
 
-.product-2{
+.product-women-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -307,7 +303,7 @@ a.sale {
     border-radius: 5px;
 }
     
-.prices-wmns {
+.product-name-women{
     display: flex;
     text-decoration:none;
     position: relative;
@@ -317,7 +313,7 @@ a.sale {
     
 }
 
-.prices-wmns a{
+.product-name-women a{
     text-decoration: none;
     color:white;
     background-color: black;
@@ -325,28 +321,28 @@ a.sale {
     
 }
 
-.price40w{
+.price-40-women{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 55px;
 }
 
-.price40w a {
+.price-40-women a {
     color: white;
     background-color: black;
     text-decoration: none;
     margin-top: 3px;
 }
 
-.View-more2 {
+.View-more-button-women {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.View-more2 a {
+.View-more-button-women a {
     font-style: italic;
     margin: 10px;
     width: 200px;
@@ -367,7 +363,7 @@ a.sale {
  
 }
 
-.checkout-page {
+.checkout-women-men {
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -375,7 +371,7 @@ a.sale {
     
 }
 
-.wj{
+.wm-label{
     color: white;
     background-color: black;
     width: 180px;
@@ -389,7 +385,7 @@ a.sale {
     
 }
 
-.wjjj{
+.wm-product-photo{
     width: 12%;
     height: 12%;
     border-radius: 10px;
@@ -399,16 +395,16 @@ a.sale {
     
 }
 
-.yellow-nano{
+.wm-product-name{
     color: white;
 
 }
 
-.fd {
+.wm-40-price {
     color:white
 }
 
-.sizes{
+.wm-size-SL{
     color: white;
     background-color: black;
     width: 180px;
@@ -422,7 +418,7 @@ a.sale {
 
 }
 
-.buy-noww{
+.wm-buy-now{
     color: ivory;
     background-color:#B60000 ;
     text-decoration: none;
@@ -437,7 +433,7 @@ a.sale {
     
 }
 
-.add-w{
+.wm-to-cart{
     color: white;
     background-color: black;
     text-decoration: none;
@@ -451,7 +447,7 @@ a.sale {
     
 }
 
-.flex-left2{
+.flex-left-margin{
     margin-left: 20px;
 }
 
@@ -487,14 +483,14 @@ a.sale {
     opacity: 0.9;
 }
 
-.checkout-page1 {
+.checkout-page-container {
     display: flex;
     flex-direction:column;
     align-items: center;
     margin-top: 5%;
 }
 
-.mj {
+.checkout-label {
     color: white;
     background-color: black;
     width: 180px;
@@ -506,7 +502,7 @@ a.sale {
     margin-top: -60px;
 }
 
-.red-product{
+.checkout-product-photo{
     width: 6%;
     height: 6%;
     border-radius: 10px;
@@ -515,25 +511,25 @@ a.sale {
     margin-right: 30%;
 }
 
-.red-nano{
+.checkout-product-name{
     margin-left: 300px;
     margin-top: -90px;
     color:white;
     
 }
 
-.sizel{
+.checkout-product-size{
     margin-top: 35px;
     margin-left: 300px;
     color: white;
 }
-.fd1{
+.checkout-product-price{
     margin-top: 100px;
     word-spacing: 100px;
     color: white;
 }
 
-.mastercard{
+.checkout-payment-method{
     margin-top: 20px;
     width: 170px;
     border-radius: 20px;
@@ -545,7 +541,7 @@ a.sale {
     background-color: black;
 }
 
-.checkout{
+.checkout-pay-button{
     color: white;
     background-color: #B60000;
     text-decoration: none;
@@ -557,7 +553,7 @@ a.sale {
     opacity: 0.9;
 }
 
-.our-story-container-content{
+.our-story-container1{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -565,12 +561,12 @@ a.sale {
     gap: 80px;
 }
 
-.our-story-lol{
+.our-story-container2{
     display: flex;
     flex-direction: column;
 }
 
-.our-story-button{
+.green-story-button{
     background-color: #205950;
     color: white;
     width: 250px;
@@ -591,7 +587,7 @@ a.sale {
 
 }
 
-.contacts-button{
+.red-contact-button{
     padding-top: 15px;
     background-color:#B60000;
     color: white;
