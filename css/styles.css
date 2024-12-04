@@ -1,0 +1,734 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/background1.jpg");
+    min-height: 100vh;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    margin:0;
+    
+}
+
+.logo {
+    background-color: rgba(44, 248, 248, 0);
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    opacity: 0.8;
+
+    
+}
+
+.free-shipping {
+    width: 100vw;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    
+}
+
+.free-shipping p {
+    text-align: center;
+    margin:0;
+}
+    
+
+.fas {
+    color:ivory;
+    padding: 5px;
+}
+
+.flex-nav-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+
+.flex-left {
+    margin-right: auto;
+}
+
+.Button-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+
+.Button-Container a {
+    opacity: 0.8;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+a.sale {
+    color:#B60000;
+    background-color: white;
+}
+
+.women {
+    background-color:#B60000;
+}
+
+.mens { 
+    background-color:#000000 ;
+}
+
+.sale {
+    background-color: #FFFFFF;
+}
+
+.story {
+    background-color:#205950 ;
+}
+
+@media only screen and (max-width: 650px) {
+    .logo {
+        width:40%;
+    }
+}
+
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.coming-soon a{
+    font-style: italic;
+    margin: 10px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#B60000;
+    color: white;
+    position: fixed;
+    top:60%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -100px;
+
+}
+
+.flex-nav-container1 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-left: 10px;
+    position:relative;
+    top: 210px;
+
+}
+
+.flex-left1 {
+    margin-right: auto;
+}
+
+.sale-icon {
+    position:relative;
+    text-decoration: none;
+    background-color: #B60000;
+    color: white;
+    top:140px;
+    left: 40px;
+    font-style: italic;
+    font-size: 10px;
+    flex-direction: column;
+    width: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+    .sale-icon {
+        width:10%
+    }
+   
+}
+
+
+
+.product-men-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 11px;
+    margin-left: 11px;
+        
+}
+
+.product-1-image{
+    height: 150px;
+    width:150px;
+    border-radius: 5px;
+    
+}
+
+.product-2-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.product-3-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.men-jacket-label {
+    position:relative;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    top: -70px;
+    left: 40px;
+    font-size: 12px;
+    flex-direction:column;
+    width: 100px;
+    text-align: center;
+}
+
+.product-name-men {
+    display: flex;
+    text-decoration:none;
+    position: relative;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    
+    
+}
+
+.product-name-men a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    border-radius: 2px;
+    
+}
+
+.price-40-men{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 55px;
+}
+
+.price-40-men a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.View-more-button-men{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.View-more-button-men a{
+    font-style: italic;
+    margin: 10px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #205950;
+    color: white;
+    position: fixed;
+    top:90%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -100px;
+}
+
+@media only screen and (max-width: 650px){
+    .product-men-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    }
+    .product-1-image{
+        width: 80px;
+        height: 80px;
+    }
+    .product-2-image{
+        width: 80px;
+        height: 80px;
+    }
+    .product-3-image{
+        width: 80px;
+        height: 80px;
+    }
+    .product-name-men{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .price-40-men{
+        font-size: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .men-jacket-label{
+        font-size: 10px;
+        top: 25px
+    }
+}
+
+
+.women-jacket-label{
+    position:relative;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    top: -70px;
+    left: 40px;
+    font-size: 12px;
+    flex-direction:column;
+    width: 120px;
+    text-align: center;
+}
+
+.product-women-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 11px;
+    margin-left: 11px;
+        
+}
+
+.product-4-image{
+    height: 150px;
+    width:150px;
+    border-radius: 5px;
+    
+}
+
+.product-5-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.product-6-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+    
+.product-name-women{
+    display: flex;
+    text-decoration:none;
+    position: relative;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    
+    
+}
+
+.product-name-women a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    border-radius: 2px;
+    
+}
+
+.price-40-women{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 55px;
+}
+
+.price-40-women a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.View-more-button-women {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.View-more-button-women a {
+    font-style: italic;
+    margin: 10px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#205950;
+    color: white;
+    position: fixed;
+    top:90%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -100px;
+}  
+    
+@media only screen and (max-width: 650px){
+    .product-woman-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    }
+    .product-4-image{
+        width: 80px;
+        height: 80px;
+        margin-top: 80px;
+    }
+    .product-5-image{
+        width: 80px;
+        height: 80px;
+        margin-top: 80px;
+    }
+    .product-6-image{
+        width: 80px;
+        height: 80px;
+        margin-top: 80px;
+    }
+    .product-name-women{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .price-40-women{
+        font-size: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .women-jacket-label{
+        font-size: 10px;
+        top: 25px
+    }
+}
+
+.checkout-women-men {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+
+.wm-label{
+    color: white;
+    background-color: black;
+    width: 180px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    opacity: 0.8;
+    margin-top: -60px;
+    
+    
+}
+
+.wm-product-photo{
+    width: 12%;
+    height: 12%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+    
+}
+
+.wm-product-name{
+    color: white;
+
+}
+
+.wm-40-price {
+    color:white
+}
+
+.wm-size-SL{
+    color: white;
+    background-color: black;
+    width: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    opacity: 0.8;
+    padding-left: 10px;
+    margin-top: 20px;
+    word-spacing: 110px;
+
+}
+
+.wm-buy-now{
+    color: ivory;
+    background-color:#B60000 ;
+    text-decoration: none;
+    font-style: italic;
+    margin: 10px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    opacity: 0.9;
+    margin-top: 30px;
+    
+}
+
+.wm-to-cart{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-style: italic;
+    margin: 10px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    opacity: 0.9;
+    
+}
+
+.flex-left-margin{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 650px){
+   .wm-label{
+       font-size: 10px;
+       margin-top: 10px;
+   }
+   .wm-product-photo{
+       width: 100px;
+       height: 100px;
+   }
+   .wm-product-name{
+       font-size: 12px;
+   }
+   .wm-40-price{
+       font-size: 12px;
+   }
+   .wm-size-SL{
+       font-size: 12px;
+   }
+}
+
+
+
+.thank-you-purchase{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    color: white;
+    font-style: italic;
+    margin-top: 5%;
+}
+
+.home-b{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.home-b a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-style: italic;
+    margin: 10px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 650px){
+    .thank-you-purchase{
+        margin-top: 100px;
+        font-size: 10px;
+    }
+    .home-b{
+        margin-top: 200px;
+    }
+    
+}
+
+.checkout-page-container {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.checkout-label {
+    color: white;
+    background-color: black;
+    width: 180px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    opacity: 0.8;
+    margin-top: -60px;
+}
+
+.checkout-product-photo{
+    width: 6%;
+    height: 6%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-right: 30%;
+}
+
+.checkout-product-name{
+    margin-left: 300px;
+    margin-top: -90px;
+    color:white;
+    
+}
+
+.checkout-product-size{
+    margin-top: 35px;
+    margin-left: 300px;
+    color: white;
+}
+.checkout-product-price{
+    margin-top: 100px;
+    word-spacing: 100px;
+    color: white;
+}
+
+.checkout-payment-method{
+    margin-top: 20px;
+    width: 170px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    word-spacing: 65px;
+    color:white;
+    background-color: black;
+}
+
+.checkout-pay-button{
+    color: white;
+    background-color: #B60000;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 650px) {
+    .checkout-page-container{
+        font-size: 11px;
+    }
+    .checkout-product-photo{
+        width: 80px;
+        
+    }
+    .checkout-product-size{
+        margin-right: 30px;
+
+    }
+    
+}
+
+.our-story-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.9;
+    gap: 80px;
+}
+
+.our-story-container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.green-story-button{
+    background-color: #205950;
+    color: white;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.our-story-content{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+
+.red-contact-button{
+    padding-top: 15px;
+    background-color:#B60000;
+    color: white;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 650px) {
+    .our-story-container1{
+        display: inline-block;
+        flex-direction: column;
+        margin-left:  20px; 
+      
+    }
+    .our-story-container2{
+        width: 150px;
+        height: 220px;
+        
+    }
+    .red-contact-button{
+        margin-top: 10px;
+    }
+    
+}
